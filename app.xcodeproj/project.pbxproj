@@ -12,6 +12,7 @@
 		C5D6E0B61E8A7E1100612FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0B51E8A7E1100612FC0 /* ViewController.m */; };
 		C5D6E0B81E8A7E1100612FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D6E0B71E8A7E1100612FC0 /* Assets.xcassets */; };
 		C5D6E0BB1E8A7E1100612FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D6E0B91E8A7E1100612FC0 /* Main.storyboard */; };
+		C5D6E0C41E8A922E00612FC0 /* ZRWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0C31E8A922E00612FC0 /* ZRWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		C5D6E0B71E8A7E1100612FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D6E0BA1E8A7E1100612FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D6E0BC1E8A7E1100612FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5D6E0C21E8A922E00612FC0 /* ZRWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRWindow.h; sourceTree = "<group>"; };
+		C5D6E0C31E8A922E00612FC0 /* ZRWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				C5D6E0B51E8A7E1100612FC0 /* ViewController.m */,
 				C5D6E0B71E8A7E1100612FC0 /* Assets.xcassets */,
 				C5D6E0B91E8A7E1100612FC0 /* Main.storyboard */,
+				C5D6E0C21E8A922E00612FC0 /* ZRWindow.h */,
+				C5D6E0C31E8A922E00612FC0 /* ZRWindow.m */,
 				C5D6E0BC1E8A7E1100612FC0 /* Info.plist */,
 				C5D6E0B11E8A7E1100612FC0 /* Supporting Files */,
 			);
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D6E0B61E8A7E1100612FC0 /* ViewController.m in Sources */,
+				C5D6E0C41E8A922E00612FC0 /* ZRWindow.m in Sources */,
 				C5D6E0B31E8A7E1100612FC0 /* main.m in Sources */,
 				C5D6E0B01E8A7E1100612FC0 /* AppDelegate.m in Sources */,
 			);
@@ -257,6 +263,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -269,6 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = app/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
