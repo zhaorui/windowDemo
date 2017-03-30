@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 
+
 @interface TestWindow : NSWindow
 
 @end
@@ -22,15 +23,19 @@
 @end
 
 int main(int argc, const char * argv[]) {
-    NSApplication* app = [NSApplication sharedApplication];
-    
-    TestWindow *window = [[TestWindow alloc] initWithContentRect:NSMakeRect(0, 0, 200, 200)
-                                                     styleMask:NSWindowStyleMaskTitled|NSWindowStyleMaskClosable
-                                                       backing:NSBackingStoreBuffered
-                                                         defer:NO];
-    
-    [app runModalForWindow: window];
-    [window release];
+//    TestWindow *window = [[TestWindow alloc] initWithContentRect:NSMakeRect(0, 0, 200, 200)
+//                                                     styleMask:NSWindowStyleMaskTitled|NSWindowStyleMaskClosable
+//                                                       backing:NSBackingStoreBuffered
+//                                                         defer:NO];
+//    
+//    NSLog(@"ref count: %lu", (unsigned long)[window retainCount]);
+//    [NSApp runModalForWindow: window];
+//    
+//    [window release];
+//    [window release];
+//    [window release];
+//    [window release];
+//    NSLog(@"ref count: %lu", (unsigned long)[window retainCount]);
     
     return NSApplicationMain(argc, argv);
 }

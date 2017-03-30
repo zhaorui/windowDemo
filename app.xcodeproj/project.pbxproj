@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C57B41B51E8CD34E00A9AD03 /* ZRChildWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B41B41E8CD34E00A9AD03 /* ZRChildWindow.m */; };
+		C57B41B81E8CE3CF00A9AD03 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C57B41B71E8CE3CF00A9AD03 /* MainWindow.m */; };
 		C5D6E0B01E8A7E1100612FC0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0AF1E8A7E1100612FC0 /* AppDelegate.m */; };
 		C5D6E0B31E8A7E1100612FC0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0B21E8A7E1100612FC0 /* main.m */; };
 		C5D6E0B61E8A7E1100612FC0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0B51E8A7E1100612FC0 /* ViewController.m */; };
 		C5D6E0B81E8A7E1100612FC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D6E0B71E8A7E1100612FC0 /* Assets.xcassets */; };
 		C5D6E0BB1E8A7E1100612FC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5D6E0B91E8A7E1100612FC0 /* Main.storyboard */; };
-		C5D6E0C41E8A922E00612FC0 /* ZRWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0C31E8A922E00612FC0 /* ZRWindow.m */; };
+		C5D6E0C41E8A922E00612FC0 /* ZRModalWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D6E0C31E8A922E00612FC0 /* ZRModalWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C57B41B31E8CD34E00A9AD03 /* ZRChildWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRChildWindow.h; sourceTree = "<group>"; };
+		C57B41B41E8CD34E00A9AD03 /* ZRChildWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRChildWindow.m; sourceTree = "<group>"; };
+		C57B41B61E8CE3CF00A9AD03 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		C57B41B71E8CE3CF00A9AD03 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 		C5D6E0AB1E8A7E1100612FC0 /* app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D6E0AE1E8A7E1100612FC0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5D6E0AF1E8A7E1100612FC0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -25,8 +31,8 @@
 		C5D6E0B71E8A7E1100612FC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5D6E0BA1E8A7E1100612FC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5D6E0BC1E8A7E1100612FC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5D6E0C21E8A922E00612FC0 /* ZRWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRWindow.h; sourceTree = "<group>"; };
-		C5D6E0C31E8A922E00612FC0 /* ZRWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRWindow.m; sourceTree = "<group>"; };
+		C5D6E0C21E8A922E00612FC0 /* ZRModalWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRModalWindow.h; sourceTree = "<group>"; };
+		C5D6E0C31E8A922E00612FC0 /* ZRModalWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRModalWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +71,12 @@
 				C5D6E0B51E8A7E1100612FC0 /* ViewController.m */,
 				C5D6E0B71E8A7E1100612FC0 /* Assets.xcassets */,
 				C5D6E0B91E8A7E1100612FC0 /* Main.storyboard */,
-				C5D6E0C21E8A922E00612FC0 /* ZRWindow.h */,
-				C5D6E0C31E8A922E00612FC0 /* ZRWindow.m */,
+				C57B41B61E8CE3CF00A9AD03 /* MainWindow.h */,
+				C57B41B71E8CE3CF00A9AD03 /* MainWindow.m */,
+				C5D6E0C21E8A922E00612FC0 /* ZRModalWindow.h */,
+				C5D6E0C31E8A922E00612FC0 /* ZRModalWindow.m */,
+				C57B41B31E8CD34E00A9AD03 /* ZRChildWindow.h */,
+				C57B41B41E8CD34E00A9AD03 /* ZRChildWindow.m */,
 				C5D6E0BC1E8A7E1100612FC0 /* Info.plist */,
 				C5D6E0B11E8A7E1100612FC0 /* Supporting Files */,
 			);
@@ -152,9 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D6E0B61E8A7E1100612FC0 /* ViewController.m in Sources */,
-				C5D6E0C41E8A922E00612FC0 /* ZRWindow.m in Sources */,
+				C5D6E0C41E8A922E00612FC0 /* ZRModalWindow.m in Sources */,
+				C57B41B81E8CE3CF00A9AD03 /* MainWindow.m in Sources */,
 				C5D6E0B31E8A7E1100612FC0 /* main.m in Sources */,
 				C5D6E0B01E8A7E1100612FC0 /* AppDelegate.m in Sources */,
+				C57B41B51E8CD34E00A9AD03 /* ZRChildWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +316,7 @@
 				C5D6E0C11E8A7E1100612FC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
